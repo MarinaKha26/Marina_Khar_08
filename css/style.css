@@ -1,35 +1,36 @@
+/*001*/
 html {
     font-size: 18px;
 }
-
+/*001*/
 body {
     font-size:1rem;
 }
-
+/*010*/
 .menu {
     font-size: 0;
     background: rgb(230, 79, 79);
     width: 50%;
 }
-
+/*010*/
 .menu__item {
     font-size: 1rem;
     display: inline-block;
     width: 80px;
     position: relative;
 }
-
+/*010*/
 .menu__link {
     color: aliceblue;
     text-decoration: none;
 }
-
+/*030*/
 .menu__item:hover .dropdown_menu{
     display: block;
     background:rgb(230, 79, 79);
     opacity: 0.80;
 }
-
+/*010*/
 .dropdown_menu {
     display: none;
     position:absolute;
@@ -39,11 +40,11 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
-
+/*110*/
 #menu__item_4:hover {
     background: black;
 }
-
+/*010*/
 .dropdown__link {
     text-decoration: none;
     color: aliceblue;
