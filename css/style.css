@@ -8,14 +8,14 @@ body {
 
 .menu {
     font-size: 0;
-    background: red;
+    background: rgb(230, 79, 79);
     width: 50%;
 }
 
 .menu__item {
     font-size: 1rem;
     display: inline-block;
-    width: 50px;
+    width: 80px;
     position: relative;
 }
 
@@ -26,18 +26,18 @@ body {
 
 .menu__item:hover .dropdown_menu{
     display: block;
-    background:red;
+    background:rgb(230, 79, 79);
+    opacity: 0.80;
 }
 
 .dropdown_menu {
     display: none;
-    position: absolute;
+    position:absolute;
     color: aliceblue;
-    list-style-type: none;
-    width: 50px;
+    width: 90px;
     text-align: left;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #menu__item_4:hover {
@@ -45,5 +45,6 @@ body {
 }
 
 .dropdown__link {
+    text-decoration: none;
     color: aliceblue;
 }
