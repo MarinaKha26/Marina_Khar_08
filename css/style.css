@@ -1,0 +1,49 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-size:1rem;
+}
+
+.menu {
+    font-size: 0;
+    background: red;
+    width: 50%;
+}
+
+.menu__item {
+    font-size: 1rem;
+    display: inline-block;
+    width: 50px;
+    position: relative;
+}
+
+.menu__link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu__item:hover .dropdown_menu{
+    display: block;
+    background:red;
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    color: aliceblue;
+    list-style-type: none;
+    width: 50px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#menu__item_4:hover {
+    background: black;
+}
+
+.dropdown__link {
+    color: aliceblue;
+}
